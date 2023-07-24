@@ -1,0 +1,17 @@
+{
+  "name": "ewen-qr-image-maker",
+  "version": "1.0.0",
+  "description": "Node application to create a QR image from user text.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ewen Reynolds",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.8",
+    "qr-image": "^3.2.0"
+  }
+}
